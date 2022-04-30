@@ -8,3 +8,16 @@ Password:124421
 # Dashboared
 ![image](https://user-images.githubusercontent.com/96526237/166096966-fbd29ed3-9d9c-4f8d-b391-d3942da63de3.png)
 
+### Quick Start
+To get this project up and running locally on your computer follow the following steps.
+1. Set up a python virtual environment
+2. Run the following commands
+    * pip install -r requirements.txt
+    * python manage.py makemigrations
+    * python manage.py migrate
+    * python manage.py createsuperuser
+    * python manage.py runserver
+   
+3. Open a browser and go to http://localhost:8000/
+
+
